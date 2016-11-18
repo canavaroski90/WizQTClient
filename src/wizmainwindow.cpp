@@ -233,6 +233,7 @@ MainWindow::MainWindow(CWizDatabaseManager& dbMgr, QWidget *parent)
 #else
     if (m_useSystemBasedStyle) {
         initMenuBar();
+        qDebug() << "Hello again";
     } else {
         initMenuList();
     }
